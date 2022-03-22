@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="/home">
+        <a className="navbar-brand" href="/">
           <img src={Logo} alt="logo" className="logo" />
           Grillo
         </a>
@@ -27,27 +27,27 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" aria-current="page" href="/home">
+              <a className="nav-link" aria-current="page" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">
+              <a className="nav-link" href="/">
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/services">
+              <a className="nav-link" href="/">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/work">
+              <a className="nav-link" href="/">
                 Our Work
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
+              <a className="nav-link" href="/">
                 Contact Me
               </a>
             </li>
